@@ -81,6 +81,8 @@ LANGCHAIN_PROJECT=dadly
 ### 1. 백엔드 (FastAPI)
 
 ```bash
+source venv/bin/activate
+
 cd backend
 uvicorn main:app --reload --port 8000
 ```
@@ -96,6 +98,8 @@ uvicorn main:app --reload --port 8000
 ### 2. 프론트엔드 (Streamlit)
 
 ```bash
+source venv/bin/activate
+
 cd app
 streamlit run main.py
 ```
